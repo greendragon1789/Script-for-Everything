@@ -1,3 +1,5 @@
+# Based on the shell we are using, we will modify either ~/.bashrc or ~/.zshrc file.
+# If you don’t have idea about this, just go for the ~/.bashrc file.
 # Change environment gcloud in Be
 function swe() {
         case $1 in

@@ -1,4 +1,4 @@
-# bash-shell
+# Bash Shell running on Linux
 Bash shell script in linux
 
 Run in shell

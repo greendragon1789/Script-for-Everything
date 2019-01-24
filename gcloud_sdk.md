@@ -1,6 +1,6 @@
 # Script run gcloud run on Gcloud SDK
 
-Create **Firewall-Rule** allow Uptime Checks on **StackDriver** check uptime on service that rule allows
+Create **Firewall-Rule** allow Uptime Checks on **StackDriver** check uptime http service that rule allows
 ```
 gcloud compute firewall-rules create "allow-uptime-stackdriver" --network=vpn-network-prod --allow tcp:80 \
 --source-ranges="35.199.66.47,35.198.18.224,35.199.67.79,35.198.36.209,35.199.90.14,35.199.123.150, \

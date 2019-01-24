@@ -1,3 +1,5 @@
+When using Gcloud with multi environment, we need transfer betweens environments. We need script to faster run. Edit in the .zshrc or .bashrc and run it after login.
+```
 # Based on the shell we are using, we will modify either ~/.bashrc or ~/.zshrc file.
 # If you don’t have idea about this, just go for the ~/.bashrc file.
 # Change environment gcloud in Be
@@ -23,3 +25,4 @@ function swe() {
                 * ) echo "CLGT"
         esac
 }
+```

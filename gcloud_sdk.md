@@ -1,4 +1,4 @@
-# Script run gcloud run on Gcloud SDK
+# Gcloud script run on Gcloud SDK
 
 Create **Firewall-Rule** allow Uptime Checks on **StackDriver** check uptime http service that rule allows
 ```

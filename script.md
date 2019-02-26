@@ -8,3 +8,7 @@ sleep 2; \
 kubectl delete pods $k; \
 done
 ```
+or
+```
+kubectl get job | awk '{print $1}' | xargs kubectl delete job
+```

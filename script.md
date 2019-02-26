@@ -11,4 +11,5 @@ done
 or
 ```
 kubectl get job | awk '{print $1}' | xargs kubectl delete job
+kubectl get job | grep cluster | awk '{print $1}' | xargs kubectl delete job
 ```
